@@ -1,0 +1,34 @@
+#header_section{
+    background: #05f;
+}
+
+.bg-light {
+   background: #05f !important;
+}
+#claim{
+    background: #fbe277;
+}
+#banner_section{
+    background: #05f;
+    height: 500px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#even_section{
+    height: 300px;
+    background: #fff;
+    /* border-radius: 50px 50px 0px 0px; */
+    border-top-left-radius: 50px;
+}
+.even_images{
+   display: flex;
+}
+.even_images img {
+    height: 33px;
+    width: 150px;
+    margin-left: 45px;
+    margin-top: 36px;
+}
+.even_images img:hover{
+    opacity: 0.5;
+}
