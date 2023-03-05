@@ -1,10 +1,33 @@
+/* Header Section Start */
 #header_section{
     background: #05f;
 }
-
+.navbar-brand {
+    color: #fff;
+    color: #fff !important;
+    font-size: 29px !important;
+}
+.nav-item {
+    margin-left: 83px;
+    font-size: 18px;
+}
+.nav-item a {
+    color: #fff;
+}
+.navbar-nav {
+    margin-left: 90px;
+}
+.btn-outline-success {
+    border: 1px solid #fff !important;
+    color: #fff !important;
+    border-radius: 30px !important;
+    padding: 6px 20px !important;
+}
 .bg-light {
    background: #05f !important;
 }
+/* Header Section End */
+
 #claim{
     background: #fbe277;
 }
