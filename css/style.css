@@ -27,21 +27,71 @@
    background: #05f !important;
 }
 /* Header Section End */
+/* ***************************************************************************** */
+/* Claim Section Start */
 
 #claim{
     background: #fbe277;
 }
+.discount_header {
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 9px;
+}
+.claim_buttion {
+    color: #0055FF;
+    border: 1px solid #0055FF;
+    background: none;
+    border-radius: 25px;
+    padding: 5px 15px;
+    font-size: 15px;
+    margin-top: 3px;
+}
+/* Claim Section End */
+/* ***************************************************************************** */
+/* Banner Section Start */
+
 #banner_section{
     background: #05f;
     height: 500px;
     padding-top: 30px;
     padding-bottom: 30px;
 }
-#even_section{
-    height: 300px;
+.banner_heading {
+    color: #fff;
+    font-size: 60px;
+    line-height: 74px;
+    padding-top: 55px;
+}
+.banner_button {
     background: #fff;
-    /* border-radius: 50px 50px 0px 0px; */
-    border-top-left-radius: 50px;
+    border: none;
+    padding: 10px 41px;
+    border-radius: 22px;
+    font-size: 20px;
+    color: #05f;
+}
+.banner_button i{
+    color: #05f;
+    margin-left: 14px;
+}
+.banner_image {
+    width: 624px;
+    height: 561px;
+    margin-left: 76px;
+}
+/* Banner Section End */
+/* ***************************************************************************** */
+/* Even Section Start */
+#even_section{
+    height: 210px;
+    background: #05f;
+}
+.even_section {
+    border-radius: 75px 75px 0px 0px;
+    background: #fff;
+    height: 210px;
 }
 .even_images{
    display: flex;
@@ -54,4 +104,51 @@
 }
 .even_images img:hover{
     opacity: 0.5;
+}
+/* Even Section End */
+/* ***************************************************************************** */
+#plan_section{
+    background: #fff;
+}
+.plan_section {
+    border-radius: 75px 75px 75px 75px;
+    background: #111547;
+    padding-bottom: 4px;
+}
+.plans_table {
+    background: #fff;
+    border-radius: 10px;
+    width: 880px !important;
+    margin: 0 auto;
+}
+.plan_dis {
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 35px !important;
+}
+.plans_table tr {
+    height: 60px;
+}
+.plans_table tr td {
+    padding: 10px 30px!important;
+}
+.plans_table tr,th,td{
+    border: none !important;
+}
+.plan_button {
+    display: block;
+    text-align: center;
+    width: 220px;
+    margin: 0 auto;
+    padding: 10px 28px;
+    font-size: 18px;
+    background: #0055FF;
+    border: none;
+    color: #fff;
+    border-radius: 29px;
+    margin-bottom: 45px;
+    margin-top: 40px;
+}
+.plan_button i{
+    margin-left: 14px;
 }
